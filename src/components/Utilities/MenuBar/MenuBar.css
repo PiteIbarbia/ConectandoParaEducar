@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .navbar {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Helvetica";
+  }
+  
+  .navbarName {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant-alternates: historical-forms;
+    text-decoration: none;
+    font-size: 2em;
+  }
+  
+  .navbarName img {
+    border-radius: 25%;
+    height: auto;
+    width: 3em;
+  }
+  
+  .navbarText{
+    padding: 1em 1em;
+  }
+  
+  .navbarOptions {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  
+  .navbarOptions h1 {
+    display: flex;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  
+  .navbarProyectos:hover li {
+    background: #800080;
+  }
+  
