@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Footer from '../src/components/Utilities/Footer/Footer';
 import Routes from '../src/Routes';

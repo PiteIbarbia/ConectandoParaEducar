@@ -49,7 +49,7 @@
     text-decoration: none;
   }
   
-  .navbarProyectos:hover li {
-    background: #800080;
+  .navbarProyectos option {
+    text-decoration: none;
+    text-decoration-line: none;
   }
-  

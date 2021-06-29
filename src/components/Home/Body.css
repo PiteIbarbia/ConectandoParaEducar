@@ -5,10 +5,27 @@
 
 .homeBody {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.img {
+.homeBody img {
     height: auto;
-    width: 0,75em;
+    width: 100em;
+}
+
+.homeBody p {
+    font-family: "Helvetica";
+    font-size: 1.5em;
+    font: medium;
+    padding: 2em;
+    text-align: justify;
+}
+
+.homeBody h1 {
+    text-align: center;
+    font-family: "Helvetica";
+    padding-top: 2em;
+    text-transform: uppercase;
+    text-decoration-line: underline;
 }
